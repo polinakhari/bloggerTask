@@ -1,0 +1,40 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    /*border: 2px solid #cccccc;*/
+    background: #ececec;
+    border-radius: 4px;
+}
+
+.post__btns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post__btn.del {
+    background-color: #fff;    
+    color: #000;
+    border: 1px solid #dc3545;
+}
+.post__btn.del:hover {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+.post__btn:hover,
+.post__btn:active {
+    opacity: 0.7;
+}
+
+.post__categories {
+    color: darkcyan;
+    font-style: italic;
+}
+.posts__title{
+    width: 95%;
+    margin: 16px;
+
+}

@@ -1,0 +1,7 @@
+.addpost {
+    display: flex;
+    flex-direction: column;
+}
+.addpost label{
+    padding-bottom: 10px;
+}

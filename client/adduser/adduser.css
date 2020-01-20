@@ -1,0 +1,7 @@
+.adduser {
+    display: flex;
+    flex-direction: column;
+}
+.adduser label{
+    padding-bottom: 5px;;
+}
