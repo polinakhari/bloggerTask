@@ -12,16 +12,16 @@ html
             h1 Редактировать
             form(action="" class="post editpost")
                 span#id(style="display:none") #{result._id}
-                label(for="title") Title
+                label(for="title") Заголовок
                 input#title(type="text" value=result.title data-old=result.title required)
-                label(for="categories") Categories
+                label(for="categories") Категории
                 select#categories(data-old=result.categories required)
-                    option(value="IT") IT
-                    option(value="Nature") Nature
-                    option(value="News") News
-                label(for="content") Content
+                    option(value="Политика") Политика
+                    option(value="Наука") Наука
+                    option(value="Культура") Культура
+                label(for="content") Текст
                 textarea#content(data-old=result.content required) #{result.content}
-                button.editpost__btn(type="submit") Save
+                button.editpost__btn(type="submit") Сохранить
                 p.editpost__status
                 a(href="/posts") 
         script(src="../client/common/common.js")

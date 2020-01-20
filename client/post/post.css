@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     padding: 10px 20px;
-    /*border: 2px solid #cccccc;*/
-    background: #ececec;
+    border: 1px solid #117a8b;*/
+    background: #fff;
     border-radius: 4px;
 }
 

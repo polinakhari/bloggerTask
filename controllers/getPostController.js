@@ -9,4 +9,5 @@ module.exports = async (req, res) => {
     // находим пост
     const result = await Post.find({_id: id});
     // если найден, рендерим страницу с отображением данных поста
-    result[0] ? res.render('post', {result: result[0], login}) : res.send('<p> no posts </p> <a href="/posts">Все новости</a>');
+    result[0] ? res.render('post', {result: result[0], login}) : res.send('<p> no posts </p> <a href="/posts">All posts</a>');
+};
